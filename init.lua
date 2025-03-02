@@ -20,12 +20,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Load the plugins and their configurations with lazy.nvim
-require("lazy").setup({
-    -- Plugin configuration files
-    require("plugins.colorscheme"),  -- Theme-related configuration (Kanagawa theme)
-    require("plugins.telescope"),    -- Telescope plugin and its key mappings
-    require("plugins.treesitter"),   -- Treesitter setup
-    require("plugins.neo-tree"),     -- Neo-tree setup (file explorer)
-})
+require("lazy").setup("plugins")
 
 
