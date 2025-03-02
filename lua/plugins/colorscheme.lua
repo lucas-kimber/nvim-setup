@@ -45,6 +45,7 @@ return {
             vim.o.background = current_theme == 3 and "light" or "dark" -- Set light mode for Lotus
             vim.cmd.colorscheme(themes[current_theme])
         end
+        vim.api.nvim_set_keymap('n', '<leader>tl', ':lua CycleKanagawaTheme()<CR>', { noremap = true, silent = true })
     end
 }
 
