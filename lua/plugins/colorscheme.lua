@@ -33,7 +33,6 @@ return {
                 }
             end
         })
-        
         vim.cmd.colorscheme("kanagawa-dragon") -- Initial theme
 
         -- Theme-changing function
