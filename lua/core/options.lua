@@ -9,3 +9,4 @@ vim.opt.number = true
 -- Set the leader key
 vim.g.mapleader = " "
 
+vim.opt.swapfile = false
